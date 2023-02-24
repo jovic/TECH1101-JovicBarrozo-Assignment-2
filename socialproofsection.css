@@ -1,0 +1,134 @@
+
+.socialsection{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 96px 0px;
+    width: 1440px;
+    height: 104px;
+    background: #F9FAFB;
+    order: 2;
+}
+
+.socialsection > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+    width: 1280px;
+    height: 104px;
+}
+
+.socialsection > .container .text{
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+    align-self: stretch;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1216px;
+    height: 48px;
+}
+
+.logos > .companylogo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 187px;
+    height: 48px;
+    font-size: 22px;
+
+}
+
+@media screen and (max-width: 800px)
+{
+    .socialsection{
+        width: 800px;
+        height: 104px;
+    }
+    
+    .socialsection > .container{
+        width: 800px;
+        height: 104px;
+    }
+    
+    .socialsection > .container .text{
+        
+    }
+    
+    .logos{
+        width: 600px;
+        height: 48px;
+    }
+    
+    .logos > .companylogo{
+        width: 27px;
+        height: 28px;
+        
+    }
+
+    .companylogo > img{
+        width: 80px;
+        height: 20px;
+    
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .socialsection{
+        width: 600px;
+        height: 442px;
+        padding: 0px;
+    }
+    
+    .socialsection > .container{
+        align-items: flex-start;
+        isolation: isolate;
+        padding: 0px;
+        width: 550px;
+        height: 356px;
+    }
+    
+    .socialsection > .container .text{
+        width: 550px;
+        font-size: 14px;
+    }
+    
+    .logos{
+        flex-direction: column;
+        width: 550px;
+        height: 300px;
+        gap: 15px;
+    }
+    
+    .logos > .companylogo{
+        width: 27px;
+        height: 28px;
+    
+    }
+
+    .companylogo > img{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 80px;
+        height: 20px;
+        font-size: 22px;
+    
+    }
+}

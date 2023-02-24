@@ -1,0 +1,299 @@
+
+.hero-section{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background: #F9FAFB;
+    padding: 0px;
+    height: 860px;
+    width: 1440px;
+    grid-area: main;
+}
+
+.hero-section > .section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 64px;
+    width: 1440px;
+    height: 860px;
+}
+
+.hero-section > .section > .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 32px;
+    gap: 32px;
+    width: 1280px;
+    height: 156px;
+}
+
+.hero-section > .section > .container > .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    width: 1216px;
+    height: 156px;
+}
+
+.heading-and-supporting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1024px;
+    height: 156px;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101828;
+    width: 1024px;
+    height: 72px;
+}
+
+.supporting-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    width: 648px;
+    height: 60px;
+
+}
+
+.container-mac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+    width: 1280px;
+    height: 448px;
+    
+}
+
+.content-mac{
+    display: flex;
+    width: 1216px;
+    height: 448px;
+}
+
+.mcbook-image{
+    position: relative;
+    width: 768px;
+    height: 448.5px;
+    left: calc(50% - 768px/2);
+    top: 0px;
+}
+
+@media screen and (max-width: 800px)
+{
+    .hero-section{
+        display:flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        background: #F9FAFB;
+        padding: 0px;
+        height: 860px;
+        width: 800px;
+        grid-area: main;
+    }
+    
+    .hero-section > .section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 96px 0px;
+        gap: 64px;
+        width: 800px;
+        height: 860px;
+    }
+    
+    .hero-section > .section > .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 32px;
+        gap: 32px;
+        width: 800px;
+        height: 156px;
+    }
+    
+    .hero-section > .section > .container > .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 48px;
+        width: 800px;
+        height: 156px;
+    }
+    
+    .heading-and-supporting{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 800px;
+        height: 156px;
+    }
+    
+    .heading{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 72px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #101828;
+        width: auto;
+        height: 72px;
+    }
+    
+    .supporting-text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #667085;
+        width: 648px;
+        height: 60px;
+    
+    }
+    
+    .container-mac{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 32px;
+        gap: 32px;
+        width: auto;
+        height: 448px;
+        
+    }
+    
+    .content-mac{
+        display: flex;
+        width: 800px;
+        height: 448px;
+    }
+    
+    .mcbook-image{
+        position: relative;
+        width: 768px;
+        height: 448.5px;
+        left: calc(50% - 768px/2);
+        top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 600px)
+{
+    
+    .hero-section{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        background: #F9FAFB;
+        padding: 0px;
+        width: 600px;
+        height: 900px;
+        grid-area: main;
+       
+    }
+
+    .hero-section > .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 96px 0px;
+        gap: 64px;
+        width: 600px;
+        height: 938px;
+        
+    }
+
+    .hero-section > .section > .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 16px;
+        width: 600px;
+        gap: 32px;
+        width: 550px;
+        height: 330px;
+
+    }
+
+    .hero-section > .section > .container > .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 48px;
+        width: 486px;
+        height: 330px;
+       
+    }
+
+    .heading-and-supporting{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 440px;
+        height: 330px;
+
+    }
+
+    .heading{
+        font-size: 40px;
+        width: 440px;
+        height: 216px;
+    }
+
+    .supporting-text{
+        width: 440px;
+        height: 90px;
+        font-size: 15px;
+
+    }
+
+    .container-mac{
+        width: 550px;
+        height: 448px;
+        padding: 0px 16px;
+        
+    }
+
+    .content-mac{
+        display: flex;
+        width: auto;
+        height: 448px;
+    }
+
+    .mcbook-image{
+        position: relative;
+        width: 550px;
+        height: 321.19px;
+        left: calc(50% - 550px/2);
+        top: 0px;
+    }
+}

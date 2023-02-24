@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+}
+ @font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.ttf') format("truetype");
+ }
+
+ 
+ @media screen and (max-width: 800px)
+ {
+    body{
+        align-items: center;
+        align-self: center;
+    }
+ }
